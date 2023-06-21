@@ -12,13 +12,14 @@
     </head>
     <?php 
         $num = $_GET["num"];
-        $numAnt = $_GET["num"] - 1;
-        $numSuc = $_GET["num"] + 1;
+        $numAnt = $num - 1;
+        $numSuc = $num + 1;
 
-        echo "O seu numero é $num";
-        echo "O antecessor: $numAnt \n"; 
-        echo "E o sucessor é $numSuc \n"; 
+        echo "O seu numero é $num\n";
+        echo "<br>O antecessor: $numAnt"; 
+        echo "<br>E o sucessor é $numSuc"; 
     ?>
+    <br><button onclick="javascript:window.location.href='index.html'">Voltar</button>
     
 </body>
 </html>
