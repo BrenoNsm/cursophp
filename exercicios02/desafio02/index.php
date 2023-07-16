@@ -9,6 +9,7 @@
     <?php 
         $valor1 = $_GET['v1'];
         $divisão = $valor1 / 1320;
+        //$valorAbsoluto = abs($valor1)
     ?>
     <main>
         <h1>Informe seu salário</h1>
