@@ -30,12 +30,9 @@
     </main>
     <section id= dados>
         <?php 
-            $mediaS = ($valor1 + $valor2) / 2;
-            $mediaP = ($valor1 * $peso1 + $valor2 * $peso2) / $peso1 + $peso2;
-
-            echo"<ul>
-            <li>A média aritmética simples é: $mediaS</li>
-            </ul>"
+            echo "<ul><li>A média simple é: ".($valor1 + $valor2) / 2 ."</li></ul>.
+            <li>A média ponderada é:".intval($valor1 * $peso1) + intval($valor2 * $peso2) / intval($peso1 + $peso2)." </li>";
+            
         ?>
         
 
