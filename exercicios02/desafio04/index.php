@@ -30,8 +30,8 @@
     </main>
     <section id= dados>
         <?php 
-            echo "<ul><li>A média simple é: ".($valor1 + $valor2) / 2 ."</li></ul>.
-            <li>A média ponderada é:".intval($valor1 * $peso1) + intval($valor2 * $peso2) / intval($peso1 + $peso2)." </li>";
+            echo "<ul><li>A média simple é: ".($valor1 + $valor2) / 2 ."</li></ul>";
+            echo"<ul><li>A média ponderada é: ".(int)($valor1 * $peso1) + (int)($valor2 * $peso2) / (int)$peso1 + $peso2 ." </li></ul>";
             
         ?>
         

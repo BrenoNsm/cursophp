@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php 
-        $valor1 = $_GET['num'];
+        $valor1  = $_GET['num'];
         $raiz = sqrt($valor1);
         $cub = pow($valor1, 1/3);
     ?>
